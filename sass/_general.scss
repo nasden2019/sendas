@@ -1,0 +1,16 @@
+body {
+    background: rgb(205, 238, 205);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// error contacto
+.error {
+    color: red;
+    font-size: 1.1rem;
+    text-decoration-line: underline;
+}
