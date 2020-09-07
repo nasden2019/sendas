@@ -14,3 +14,18 @@ body {
     font-size: 1.1rem;
     text-decoration-line: underline;
 }
+
+// redes desktop
+@media (max-width: 700px) {
+    .redes1 {
+        width: 40px !important;
+    }
+
+    .redes2 {
+        width: 50px !important;
+    }
+
+    .redes3 {
+        width: 25px !important;
+    }
+}
