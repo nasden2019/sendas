@@ -17,4 +17,26 @@
     .contacto {
         margin-top: -120px;
     }
+
+    .sobremi {
+        height: 200px !important;
+    }
+}
+
+@media (min-width: 700px) {
+    .sobremi {
+        height: 600px;
+        width: 400px
+    }
+}
+
+// form mobile
+@media (max-width: 700px) {
+    #comment {
+        width: 100%;
+    }
+
+    .mapa {
+        width: 100%;
+    }
 }

@@ -5,7 +5,7 @@ const spanE = document.querySelector('.spanE');
 const spanC = document.querySelector('.spanC');
 
 form.addEventListener('submit', () => {
-    // e.preventDefault();
+    // e.preventDefault(); lo quitamos para q lo envie
 
     // console.log(form.email.value)
     if (form.email.value.trim() == '') {

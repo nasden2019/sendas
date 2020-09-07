@@ -24,6 +24,15 @@ main .slider {
   margin-bottom: 230px !important;
 }
 
+main h3 {
+  font-weight: 900;
+  margin-bottom: 13px;
+}
+
+main p {
+  font-size: 16px;
+}
+
 .carousel-inner,
 .carousel,
 .carousel-item,
@@ -245,5 +254,24 @@ nav .nav-link:hover {
   }
   .contacto {
     margin-top: -120px;
+  }
+  .sobremi {
+    height: 200px !important;
+  }
+}
+
+@media (min-width: 700px) {
+  .sobremi {
+    height: 600px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  #comment {
+    width: 100%;
+  }
+  .mapa {
+    width: 100%;
   }
 }
