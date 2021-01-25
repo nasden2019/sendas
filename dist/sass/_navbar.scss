@@ -1,0 +1,23 @@
+nav {
+    a {
+        font-weight: 900;
+        color: white;
+    }
+
+    .nav-link {
+        font-weight: 700;
+        font-size: 1.6rem;
+
+        &:hover {
+            text-decoration-line: underline;
+        }
+
+    }
+}
+
+// SECTION CONTACTO
+.contacto {
+    margin-bottom: 100px;
+}
+
+// footer
