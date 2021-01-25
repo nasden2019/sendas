@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "deploy": "gh-pages -d SENDAS"
+    "deploy": "gh-pages"
   },
   "repository": {
     "type": "git",
